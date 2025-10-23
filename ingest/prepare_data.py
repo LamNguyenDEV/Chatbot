@@ -3,7 +3,9 @@ import nltk
 from sentence_transformers import SentenceTransformer
 import chromadb
 
-#PREPARE_DATA IS PART 1, RETRIEVE_DATA IS PART 2 OF THIS PROGRAM
+# Note
+# PREPARE_DATA IS PART 1, RETRIEVE_DATA IS PART 2 OF THIS PROGRAM
+# Prepare_data.py purpose for Set Up Retrieval (Vector Database).
 print(" Starting ingestion process...")
 
 # === Download NLTK punkt tokenizer for sentence splitting (only first run) ===
